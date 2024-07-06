@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\ProdigyInfoTech Internship\Stopwatch\stopWatch.css">
+    <title>Stopwatch Timer</title>
+</head>
+
+<body>
+    <audio src='C:\ProdigyInfoTech Internship\Stopwatch\alarmBeep.mp3'></audio>
+    <div id='container'>
+        <div id='headerContainer'>
+            <h1>TIMER</h1>
+        </div>
+        <div id='timeContainer'>
+            <p>
+                <span id='hour'><input type="text" id='h1' placeholder="00" min='0' max='59'
+                        oninput="restrictInput(event)" onpaste="restrictPaste(event)"></span><span
+                    class='colon'>:</span><span id='minute'><input type="text" id='m1' placeholder="00" min='0' max='59'
+                        oninput="restrictInput(event)" onpaste="restrictPaste(event)"></span><span
+                    class='colon'>:</span><span id='second'><input type="text" id='s1' placeholder="00" min='0' max='59'
+                        oninput="restrictInput(event)" onpaste="restrictPaste(event)">
+                    <!-- <select name="hour" id="hour"><span id='h1'>0</span><span id='h2'>0</span>
+        </select>:<select><span id='m1'>0</span><span id='m2'>0</span>
+        </select>:<select><span id='s1'>0</span><span id='s2'>0</span>
+        </select> -->
+            </p>
+        </div>
+        <div id='buttonContainer'>
+            <button type='submit' id='startButton'>Start Timer</button>
+            <button type='submit' id='pauseButton'>Pause Timer</button>
+            <button type='submit' id='resetButton'>Reset</button>
+        </div>
+    </div>
+    <script src='C:\ProdigyInfoTech Internship\Stopwatch\stopWatch.js'></script>
+</body>
+
+</html>
