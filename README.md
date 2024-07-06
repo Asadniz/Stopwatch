@@ -1,6 +1,6 @@
 # Stopwatch
 
-The following task is part of my internship for Prodigy Infotech. The task was to construct an interactive navigation bar, changing colors smoothly as we slide down the site. I used HTML 5, CSS 3, and Javascript ES14 for this task.\
+The following task is part of my internship for Prodigy Infotech. The task was to construct an interactive timer application with 'start', 'stop', and 'reset' functionalities. I used HTML 5, CSS 3, and Javascript ES14 for this task.\
 \
 HOW TO RUN:\
 \
