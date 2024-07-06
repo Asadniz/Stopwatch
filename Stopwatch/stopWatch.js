@@ -90,6 +90,9 @@ function restrictInput(event) {
     else if (value > maxvalue) {
         input.value = value.toString().slice(0, -1);
     }
+    if (input.value === '') {
+        input.value = '00';
+    }
 }
 
 function restrictPaste(event) {
