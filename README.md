@@ -6,5 +6,5 @@ HOW TO RUN:\
 \
 Clone this repository.\
 Run the html file on an IDE.\
-Update the paths of stylesheet and javascript files as per the location of your folder.\
+Update the paths of the audio source, stylesheet, and javascript files as per the location of your folder.\
 Run the html file on a browser.
